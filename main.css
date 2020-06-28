@@ -176,6 +176,10 @@ p {
   vertical-align: baseline;
 }
 
+left {
+  text-align: left;
+}
+
 .justify-text {
   text-align: justify;
 }
