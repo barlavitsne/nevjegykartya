@@ -53,7 +53,7 @@ table {
 /* Pozicionálás */
 
 .profile-card {
-  width: 35vw;
+  width: 40vw;
   height: 70vh;
   max-width: calc(100vw - 10px);
   padding-left: 0.78vw;
@@ -78,7 +78,7 @@ body {
 }
 
 .head, .content {
-  width: 30vw;
+  width: 35vw;
   margin: auto;
   padding-left: 0.6vw;
   padding-right: 0.6vw;
@@ -88,7 +88,7 @@ body {
 
 img {
   width: 9.79vw;
-  height: auto;
+  height: 100%;
   border-radius: 30px 0px 30px 0px;
 }
 
@@ -160,18 +160,18 @@ h1 {
   text-transform: uppercase;
   font-family: "Open Sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 i, h2 {
   font-family: "Font Pair","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
-  font-size: 1.12rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
 p {
   font-family: "Font Pair","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   vertical-align: baseline;
 }
 
@@ -193,7 +193,7 @@ p {
 }
 
 .kisbetus {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .white {
