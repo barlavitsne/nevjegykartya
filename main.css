@@ -1,0 +1,205 @@
+/* CSS reset */
+
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 35vw;
+  height: 70vh;
+  max-width: calc(100vw - 10px);
+  padding-left: 0.78vw;
+  padding-right: 0.78vw;
+  padding-bottom: 1.38vh;
+  padding-top: 1.38vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+}
+
+.head, .links {
+  text-align: center;
+  margin: auto;
+}
+
+.head, .content {
+  width: 30vw;
+  margin: auto;
+  padding-left: 0.6vw;
+  padding-right: 0.6vw;
+  padding-bottom: 1.38vh;
+  padding-top: 1.38vh;
+}
+
+img {
+  width: 9.79vw;
+  height: auto;
+  border-radius: 30px 0px 30px 0px;
+}
+
+.profile-image {
+  margin-top: -60px;
+  color: white;
+}
+
+/* Contact links, a fekete pontok eltávolítása a listaelemek elől, és egymás mellé pozícionálásuk */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+/* Több térköz legyen */
+
+.head, .about {
+  margin-bottom: 5%;
+}
+
+.content {
+  padding: 5% 5%;
+}
+
+body {
+  background: url('assets/photo.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  border-radius: 30px 0px 30px 0px;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+}
+
+/* Profilkép keret */
+
+img {
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+/* Vízszintes elválasztó vonal középen */
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .9);
+}
+
+/* Interakció a profilképen */
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(10%);
+}
+
+.profile-card:hover {
+  transform: scale(1.01);
+  filter: grayscale(15%);
+  background-color: black;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Open Sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+i, h2 {
+  font-family: "Font Pair","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-size: 1.12rem;
+  text-align: center;
+}
+
+p {
+  font-family: "Font Pair","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-size: 1rem;
+  vertical-align: baseline;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.shadow {
+  text-shadow:-2px -2px 1px black;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.social-icon:hover {
+  color: burlywood;
+}
+
+.kisbetus {
+  font-size: 0.9rem;
+}
+
+.white {
+  color: rgb(236, 235, 234);
+}
+
+.brown {
+  color: burlywood;
+}
