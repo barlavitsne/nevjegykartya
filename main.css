@@ -56,6 +56,7 @@ table {
   width: 55vw;
   height: 70vh;
   max-width: calc(100vw - 10px);
+  min-height: calc(100vh - 120px);
   padding-left: 0.78vw;
   padding-right: 0.78vw;
   padding-bottom: 1.38vh;
